@@ -1,0 +1,24 @@
+ #   Column       Non-Null Count  Dtype
+---  ------       --------------  -----
+ 0   PassengerId  891 non-null    int64
+ 1   Survived     891 non-null    int64
+ 2   Pclass       891 non-null    int64
+ 3   Name         891 non-null    object
+ 4   Sex          891 non-null    object
+ 5   Age          714 non-null    float64
+ 6   SibSp        891 non-null    int64
+ 7   Parch        891 non-null    int64
+ 8   Ticket       891 non-null    object
+ 9   Fare         891 non-null    float64
+ 10  Cabin        204 non-null    object
+ 11  Embarked     889 non-null    object
+ 12  train_test   891 non-null    int64
+
+        PassengerId    Survived      Pclass         Age       SibSp       Parch        Fare  train_test
+count   891.000000  891.000000  891.000000  714.000000  891.000000  891.000000  891.000000       891.0
+mean    446.000000    0.383838    2.308642   29.699118    0.523008    0.381594   32.204208         1.0
+std     257.353842    0.486592    0.836071   14.526497    1.102743    0.806057   49.693429         0.0
+min       1.000000    0.000000    1.000000    0.420000    0.000000    0.000000    0.000000         1.0
+25%     223.500000    0.000000    2.000000   20.125000    0.000000    0.000000    7.910400         1.0
+75%     668.500000    1.000000    3.000000   38.000000    1.000000    0.000000   31.000000         1.0
+max     891.000000    1.000000    3.000000   80.000000    8.000000    6.000000  512.329200         1.0
